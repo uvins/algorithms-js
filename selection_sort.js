@@ -5,7 +5,7 @@ function findSmallest(arr) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] < smallest) {
             smallest = arr[i]
-            smallest_index = 1
+            smallest_index = i
         }
     }
     
